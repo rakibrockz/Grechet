@@ -1,0 +1,65 @@
+*{
+    font-family: 'Cormorant Upright';
+}
+
+/* ===============================Text Common Css======================= */
+  .h5-23px-cormorant-upright {
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 4%;
+    text-transform: capitalize;
+  }
+  
+  .h1-90px-cormorant-upright-semi {
+    font-size: 90px;
+    font-weight: bold;
+    letter-spacing: 4%;
+    text-transform: capitalize;
+  }
+  
+  .body-16px-regular {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 4%;
+  }
+  
+  .button {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 4%;
+  }
+  
+  .h2-64px-cormorant-upright {
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: 3%;
+    text-transform: capitalize;
+  }
+  
+  .h6-16px-cormorant-upright {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 4%;
+    text-transform: capitalize;
+  }
+  
+  .h4-32px-cormorant-upright {
+    font-size: 32px;
+    font-weight: normal;
+    letter-spacing: 4%;
+    text-transform: capitalize;
+  }
+  
+  .h3-45px-cormorant-upright-semi {
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 4%;
+    text-transform: capitalize;
+  }
+
+/* ===============================Text Common Css======================= */
+
+.photo::-webkit-scrollbar{
+  display: none;
+}

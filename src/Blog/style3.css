@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.sans{
+    font-family: "Open Sans", sans-serif;
+}
+.upright{
+    font-family: "Cormorant Upright", serif;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.accordion-content.open {
+    max-height: 178px; /* Adjust as needed */
+    opacity: 1;
+    border-color: #4a90e2;
+
+}
+
+
+.accordion-header {
+    cursor: pointer;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+
+
+/* Custom styles for the opened accordion item */
+
+
+.accordion-item.open .accordion-header {
+    color: #4a90e2;
+}
+.h3_chg{
+    color: #DCCA87;
+}
+.border_chng{
+    border: solid 6px #ffffff inset ;
+}
+
+
+/* .orbit_letter{
+    animation:spin 4s linear ;
+    -webkit-animation:spin 4s linear ;
+}
+@keyframes spin{
+    0%{
+        transform: rotatex('0');
+        -webkit-transform: rotatex('0');
+        -moz-transform: rotatex('0');
+        -ms-transform: rotatex('0');
+        -o-transform: rotatex('0');
+}
+    100%{
+        transform: rotatex('360');
+        -webkit-transform: rotatex('360');
+        -moz-transform: rotatex('360');
+        -ms-transform: rotatex('360');
+        -o-transform: rotatex('360');
+}
+
+} */
